@@ -1,5 +1,3 @@
-
-
 public class Main {
 
     public static void main(String[] args) {
@@ -59,7 +57,15 @@ public class Main {
         String numberString = "250.55";
         numberString = numberString +"49.95";
         System.out.println(numberString);
-        
+
+        String lastString = "10";
+        int myInt = 50;
+        lastString = lastString +myInt;
+        System.out.println("laast string is equal to "+lastString);
+        double doubleNumber = 120.47d;
+        lastString = lastString + doubleNumber;
+        System.out.println("lastString is equal to "+ lastString);
+
 
 
 
