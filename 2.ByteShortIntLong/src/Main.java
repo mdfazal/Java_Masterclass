@@ -71,6 +71,19 @@ public class Main {
             System.out.println("you got the high score!");
         }
 
+        double myFirstvalue = 20.00d;
+        double mySecondvalue = 80.00d;
+        double myValueTotal = myFirstvalue +mySecondvalue *100.00d;
+        System.out.println("myvalue totoal = "+myValueTotal);
+        double theRemainder = myValueTotal%40.00d;
+        System.out.println("theRemainder = " +theRemainder);
+        boolean isNoremainder =(theRemainder == 0)? true :false;
+        System.out.println("isNotremainder ="+isNoremainder);
+        if(!isNoremainder){
+            System.out.println("got some remainder");
+        }
+
+
 
 
 
