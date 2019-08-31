@@ -66,6 +66,8 @@ public class Main {
         lastString = lastString + doubleNumber;
         System.out.println("lastString is equal to "+ lastString);
 
+        
+
 
 
 
