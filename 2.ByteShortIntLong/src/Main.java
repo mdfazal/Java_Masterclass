@@ -66,7 +66,10 @@ public class Main {
         lastString = lastString + doubleNumber;
         System.out.println("lastString is equal to "+ lastString);
 
-        
+        int score=100;
+        if(score>=100){
+            System.out.println("you got the high score!");
+        }
 
 
 
