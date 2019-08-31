@@ -1,4 +1,4 @@
-package com.company;
+
 
 public class Main {
 
@@ -26,6 +26,41 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = "+myMinLongValue);
         System.out.println("Long Maximum Value = "+myMaxLongValue);
+        
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMAXFloatValue = Float.MAX_VALUE;
+        System.out.println("Float minimum value = "+ myMinFloatValue);
+        System.out.println("Float maximum value = "+ myMAXFloatValue);
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMAXDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double minimum value = "+ myMinDoubleValue);
+        System.out.println("Double maximum value = "+ myMAXDoubleValue);
+        
+
+        byte myNewByteValue = (byte)(myMinByteValue/2);
+        short myNewShortValue = (short)(myMinShortValue/2);
+
+        int myIntValu = 5;
+        float myfloat = 5.25f;
+        double myf = 5.25;
+
+        char myChar ='D';
+        char myUnicode ='\u0044';
+        System.out.println(myChar);
+        System.out.println(myUnicode);
+
+        String myString = "This is a String";
+        System.out.println("myString is equal to ="+myString);
+        myString = myString+ ", and this is more";
+        System.out.println("myString now shows ="+myString);
+        myString = myString + "\u00A9 2019";
+        System.out.println("myString is yay ="+myString);
+        String numberString = "250.55";
+        numberString = numberString +"49.95";
+        System.out.println(numberString);
+        
+
 
 
 
